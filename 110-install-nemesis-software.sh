@@ -1,16 +1,9 @@
 #!/bin/bash
 #set -e
 ##################################################################################################################
-# Author    : Erik Dubois
+# Author    : Erik Dubois modified
 # Website   : https://www.erikdubois.be
-# Website   : https://www.alci.online
-# Website   : https://www.ariser.eu
-# Website   : https://www.arcolinux.info
-# Website   : https://www.arcolinux.com
-# Website   : https://www.arcolinuxd.com
-# Website   : https://www.arcolinuxb.com
-# Website   : https://www.arcolinuxiso.com
-# Website   : https://www.arcolinuxforum.com
+
 ##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
@@ -105,7 +98,7 @@ sudo pacman -S --noconfirm --needed edu-rofi-themes-git
 sudo pacman -S --noconfirm --needed edu-sddm-simplicity-git
 sudo pacman -S --noconfirm --needed edu-shells-git
 #sudo pacman -S --noconfirm --needed edu-variety-config-git
-sudo pacman -S --noconfirm --needed edu-xfce-git
+#sudo pacman -S --noconfirm --needed edu-xfce-git
 #sudo pacman -S --noconfirm --needed flameshot-git
 sudo pacman -S --noconfirm --needed gitahead-git
 sudo pacman -S --noconfirm --needed hardcode-fixer-git

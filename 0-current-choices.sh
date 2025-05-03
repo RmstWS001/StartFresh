@@ -169,7 +169,7 @@ if [ -f /etc/dev-rel ]; then
     fi
 fi
 
-sh 100-remove-software*
+#sh 100-remove-software*
 sh 110-install-nemesis-software*
 sh 120-install-core-software*
 sh 150-wine-staging*

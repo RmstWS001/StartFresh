@@ -105,6 +105,16 @@ sudo pacman -S --noconfirm --needed wine-gecko
 sudo pacman -S --noconfirm --needed winetricks
 
 echo
+tput setaf 2
+echo "################################################################"
+echo "################### Lutris and extra's"
+echo "################################################################"
+tput sgr0
+echo
+
+sudo pacman -S --noconfirm -needed lutris
+
+echo
 tput setaf 6
 echo "######################################################"
 echo "###################  $(basename $0) done"
